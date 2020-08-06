@@ -19,14 +19,14 @@ from platform import python_version, uname
 
 ALIVE_IMG = Config.ALIVE_PHOTTO
 if ALIVE_IMG is None:
-  ALIVE_IMG = "https://telegra.ph/file/3952f58c07382778cab87.jpg"
+  ALIVE_IMG = "http://i.pinimg.com/originals/42/a5/2c/42a52caffb1b65daa92ee798706b5a93.jpg"
 
 
 DEFAULTUSER = str(ALIVE_NAME) if ALIVE_NAME else "Set ALIVE_NAME in config vars in Heroku"
 
 ALIVE_MESSAGE = Config.ALIVE_MSG
 if ALIVE_MESSAGE is None:
-  ALIVE_MESSAGE = "**🔱ＤａＲｋ　ｐＲｉＮｃＥ IS Awake 🔱\n\n\n**"
+  ALIVE_MESSAGE = "**🔱Nature lover IS Awake 🔱\n\n\n**"
   ALIVE_MESSAGE += "`My Bot Status\n\n\n`"
   ALIVE_MESSAGE += f"`Telethon: Telethon Not Found\n\n`"
   ALIVE_MESSAGE += f"`Python: PYTHON-3.6.4 \n\n`"
