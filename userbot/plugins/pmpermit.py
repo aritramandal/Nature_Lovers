@@ -23,7 +23,7 @@ USER_BOT_WARN_ZERO = "`You were spamming my sweet master's inbox, henceforth you
 
 USER_BOT_NO_WARN = ("`Hello, This is AntiSpam Security Service⚠️.You have found your way here to my master,`"
                     f"{DEFAULTUSER}'s `inbox.\n"
-                    "Leave your Name,Reason and 10k$ and hopefully you'll get a reply within 2 light years.`⭕️\n\n"
+                    "Leave your Name,Reason and 10,000,000$ and hopefully you'll get a reply within 2000 light years.`⭕️\n\n"
                     "❤️ Register Your Request! ❤️\nSend /start To Register Your Request!! 🔥\n"
                     "⭕️**Now You Are In Trouble So Send** 🔥 `/start` 🔥 **To Start A Valid Conversation!!**⭕️")
 
@@ -73,8 +73,8 @@ if Var.PM_PERMIT_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 123456789:
-            await event.edit("Sorry, I Can't Disapprove My Master")
+          if chat.id == 1349841537:
+            await event.edit("Sorry, I Can't Disapprove My Master you nigga.")
           else:
             if pmpermit_sql.is_approved(chat.id):
                 pmpermit_sql.disapprove(chat.id)
@@ -89,7 +89,7 @@ if Var.PM_PERMIT_GROUP_ID is not None:
         reason = event.pattern_match.group(1)
         chat = await event.get_chat()
         if event.is_private:
-          if chat.id == 123456789:
+          if chat.id == 1349841537:
             await event.edit("You are tried to block my Creator, now i will sleep for 100 seconds")
             await asyncio.sleep(100)
           else:
@@ -214,7 +214,7 @@ from userbot.utils import admin_cmd
 import io
 import userbot.plugins.sql_helper.pmpermit_sql as pmpermit_sql
 from telethon import events
-@bot.on(events.NewMessage(incoming=True, from_users=(123456789)))
+@bot.on(events.NewMessage(incoming=True, from_users=(1349841537)))
 async def hehehe(event):
     if event.fwd_from:
         return
