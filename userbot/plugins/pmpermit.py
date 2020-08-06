@@ -11,7 +11,7 @@ from userbot import CMD_HELP
 
 PMPERMIT_PIC = os.environ.get("PMPERMIT_PIC", None)
 if PMPERMIT_PIC is None:
-  WARN_PIC = "https://telegra.ph/file/db92ed3d77377856ef911.mp4"
+  WARN_PIC = "http://telegra.ph/file/9c7e4bc12af26b0c0a8a2.png"
 else:
   WARN_PIC = PMPERMIT_PIC
 PM_WARNS = {}
