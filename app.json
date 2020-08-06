@@ -1,7 +1,7 @@
 {
   "name": "Nature Lover",
-  "description": " Userbot Kanged From Everywhere",
-  "logo": "https://telegra.ph/file/3952f58c07382778cab87.jpg",
+  "description": " Userbot made for mother nature.",
+  "logo": "https://upload.wikimedia.org/wikipedia/commons/4/42/Shaqi_jrvej.jpg",
     "keywords": [
     "telegram",
     "userbot",
@@ -28,7 +28,7 @@
       "required": false
     },
     "ALIVE_NAME": {
-      "description": "Fill your Full name or Username like @No_OnE_Kn0wS_Me .",
+      "description": "Fill your Full name or Username like @Sipak_is_king .",
       "value": "",
       "required": false
     },
@@ -140,7 +140,7 @@
     },
     "DOWNLOAD_PFP_URL_CLOCK": {
       "description": "Needed for autopic module. A url that is a preview link of your Profile Pic",
-      "value": "https://telegra.ph/file/2765633721f6e21a0df9e.jpg",
+      "value": "https://images-na.ssl-images-amazon.com/images/I/71acmuvxW0L._AC_SL1250_.jpg",
       "required": false
     },
     "OPEN_WEATHER_MAP_APPID": {
