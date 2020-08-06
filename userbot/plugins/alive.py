@@ -14,7 +14,7 @@ from uniborg.util import admin_cmd
 async def _(event):
     if event.fwd_from:
         return
-    mentions = "`Yass, I'm alive 😉`"
+    mentions = "`Yupp, I'm alive 😉 And serving my Sweet MaSter`"
     chat = await event.get_input_chat()
     async for x in borg.iter_participants(chat, filter=ChannelParticipantsAdmins):
         mentions += f""
