@@ -9,7 +9,7 @@ from userbot.utils import admin_cmd
 
 #@register(outgoing=True, pattern="^.q(?: |$)(.*)")
 @borg.on(admin_cmd(pattern="qbot ?(.*)"))
-@borg.on(events.NewMessage(pattern=r"\.qbot(.*)",incoming=True))
+@borg.on(events.NewMessage(pattern=r"\.qbot(.*)",outgoing=True))
 async def _(event):
     if event.fwd_from:
         return 
